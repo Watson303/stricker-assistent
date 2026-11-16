@@ -1,7 +1,7 @@
 // Stricker Außendienstassistent – Service Worker
 // Online: immer zuerst die neueste Version vom Server holen.
 // Offline: die zuletzt geladene Version aus dem Speicher nehmen.
-const CACHE = 'stricker-v3';
+const CACHE = 'stricker-v4';
 
 self.addEventListener('install', e => self.skipWaiting());
 
